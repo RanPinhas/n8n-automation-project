@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .image-container {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        .attraction-name {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+        .explanations {
+            padding: 20px;
+        }
+        .map {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>London</h1>
+    </div>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://image.pollinations.ai/prompt/Buckingham_Palace_London" alt="Buckingham Palace">
+            <div class="attraction-name">Buckingham Palace</div>
+        </div>
+        <div class="image-container">
+            <img src="https://image.pollinations.ai/prompt/The_London_Eye_London" alt="The London Eye">
+            <div class="attraction-name">The London Eye</div>
+        </div>
+        <div class="image-container">
+            <img src="https://image.pollinations.ai/prompt/The_British_Museum_London" alt="The British Museum">
+            <div class="attraction-name">The British Museum</div>
+        </div>
+    </div>
+    <div class="explanations">
+        <p><strong>Buckingham Palace</strong> - Buckingham Palace is the official residence and administrative headquarters of the British monarch. The palace has been the principal residence of the British monarch since 1837 and is one of the most recognizable landmarks in London. The palace is used for official events and receptions, and the changing of the guard ceremony is a popular tourist attraction. The palace's State Rooms are open to the public during the summer months, offering a glimpse into the opulent interior of the palace. With its rich history and stunning architecture, Buckingham Palace is a must-visit destination for anyone traveling to London.</p>
+        <p><strong>The London Eye</strong> - The London Eye is a giant Ferris wheel located on the South Bank of the River Thames. The London Eye is one of the tallest Ferris wheels in Europe, standing at 135 meters tall, and offers breathtaking views of the city from its 32 glass-enclosed capsules. The London Eye is a popular tourist attraction, attracting millions of visitors each year. The wheel is surrounded by a number of other attractions, including the London Aquarium and the British Film Institute. The London Eye is a great way to see the city from a unique perspective and is a must-visit destination for anyone traveling to London.</p>
+        <p><strong>The British Museum</strong> - The British Museum is one of the world's greatest museums, with a collection of over 8 million objects from all corners of the globe. The museum was founded in 1753 and has been located in its current building since 1852. The museum's collection includes a vast array of artifacts, including the Rosetta Stone, the Elgin Marbles, and the mummies in the Ancient Egypt gallery. The museum is also home to a number of temporary exhibitions, which have included exhibits on everything from ancient civilizations to modern art. With its vast collection and stunning architecture, the British Museum is a must-visit destination for anyone interested in history, culture, or art.</p>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.406650493706!2d-0.12775868448923885!3d51.50734827932961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3767c15c77%3A0x7f4d5e5f73055b30!2sLondon%2C+UK!5e0!3m2!1sen!2suk!4v1643723348144!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
