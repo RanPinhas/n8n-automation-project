@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerusalem</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+        
+        .attractions-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        
+        .attraction {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .attraction img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .attraction-name {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .explanations-section {
+            padding: 20px;
+        }
+        
+        .map {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        iframe {
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ירושלים</h1>
+    </header>
+    <section class="attractions-gallery">
+        <div class="attraction">
+            <img src="https://image.pollinations.ai/prompt/Western_Wall_Jerusalem" alt="Western Wall">
+            <div class="attraction-name">Western Wall</div>
+        </div>
+        <div class="attraction">
+            <img src="https://image.pollinations.ai/prompt/Dome_of_the_Rock_Jerusalem" alt="Dome of the Rock">
+            <div class="attraction-name">Dome of the Rock</div>
+        </div>
+        <div class="attraction">
+            <img src="https://image.pollinations.ai/prompt/Church_of_the_Holy_Sepulchre_Jerusalem" alt="Church of the Holy Sepulchre">
+            <div class="attraction-name">Church of the Holy Sepulchre</div>
+        </div>
+    </section>
+    <section class="explanations-section">
+        <p><strong>Western Wall</strong> - The Western Wall, also known as the Wailing Wall, is a sacred site in Jerusalem and a remnant of the Second Temple. It is a place of great historical and religious significance, and thousands of people visit it every year to pray and leave notes in the cracks between the stones. The wall is over 2,000 years old and is considered one of the most important Jewish sites in the world. Visitors can see the emotional and spiritual connection that people have with the wall, and it is a must-visit attraction for anyone interested in history and culture. The wall is also a symbol of the Jewish people's connection to their heritage and their hope for a better future.</p>
+        <p><strong>Dome of the Rock</strong> - The Dome of the Rock is a stunning example of Islamic architecture and a major landmark in Jerusalem. It is a dome-shaped shrine that was built in the 7th century and is considered one of the most beautiful and historic buildings in the world. The dome is covered in intricate mosaics and calligraphy, and it is surrounded by a large courtyard and several other buildings. The Dome of the Rock is a significant site in Islam, as it is believed to be the place where the Prophet Muhammad ascended to heaven. Visitors can admire the stunning architecture and learn about the history and significance of the site. The dome is also a symbol of the city's rich cultural heritage and its importance as a center of learning and spirituality.</p>
+        <p><strong>Church of the Holy Sepulchre</strong> - The Church of the Holy Sepulchre is a historic church in Jerusalem that is believed to be the site of Jesus' crucifixion, burial, and resurrection. It is a major pilgrimage site for Christians and a significant landmark in the city. The church is a complex of several chapels and shrines, each with its own unique history and significance. Visitors can see the Stone of Unction, the Chapel of the Crucifixion, and the Tomb of Jesus, among other sites. The church is also home to several different Christian denominations, each with its own section of the church. The Church of the Holy Sepulchre is a must-visit attraction for anyone interested in history, religion, and culture, and it is a powerful symbol of the city's importance as a center of spirituality and faith.</p>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.235555555555!2d35.201269414999996!3d31.783315999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502b9c9ccbbcdab%3A0x661712c747a3a5b6!2sJerusalem!5e0!3m2!1sen!2sus!4v1674344444444!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
