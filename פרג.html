@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פרג City</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .gallery .name {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .explanations {
+            padding: 20px;
+        }
+        .map {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .map iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>פרג</h1>
+    </header>
+    <section class="gallery">
+        <div>
+            <img src="https://image.pollinations.ai/prompt/Prague_Castle_Prague" alt="Prague Castle">
+            <div class="name">Prague Castle</div>
+        </div>
+        <div>
+            <img src="https://image.pollinations.ai/prompt/Charles_Bridge_Prague" alt="Charles Bridge">
+            <div class="name">Charles Bridge</div>
+        </div>
+        <div>
+            <img src="https://image.pollinations.ai/prompt/Old_Town_Square_Prague" alt="Old Town Square">
+            <div class="name">Old Town Square</div>
+        </div>
+    </section>
+    <section class="explanations">
+        <p><strong>Prague Castle</strong> - Prague Castle is a castle complex in Prague, Czech Republic, dating back to the 9th century. It is one of the largest and most impressive castle complexes in the world, covering an area of over 70,000 square meters. The castle has been the seat of power for various rulers throughout history, including the Kings of Bohemia and the Holy Roman Emperors. Today, it is a popular tourist destination and a symbol of the city of Prague. Visitors can explore the castle's many buildings, gardens, and courtyards, including the stunning St. Vitus Cathedral.</p>
+        <p><strong>Charles Bridge</strong> - Charles Bridge is a historic stone bridge in Prague, Czech Republic, that spans the Vltava River. The bridge was built in the 14th century and is adorned with 30 statues of saints and other figures. It is a popular tourist destination and a iconic symbol of the city of Prague. The bridge offers stunning views of the Vltava River and the city skyline, and is a great place to take a romantic walk or simply enjoy the atmosphere. Visitors can also explore the bridge's many shops, restaurants, and street performers.</p>
+        <p><strong>Old Town Square</strong> - Old Town Square is a historic square in the heart of Prague, Czech Republic, that dates back to the 12th century. The square is home to many famous landmarks, including the Astronomical Clock, the Church of Our Lady Before Týn, and the Old Town Hall. The square is a popular tourist destination and a great place to experience the city's vibrant atmosphere. Visitors can explore the square's many shops, restaurants, and cafes, or simply sit and enjoy the views. The square is also a great place to learn about the city's history and culture, with many guided tours and museums nearby.</p>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.985936335946!2d14.420765315794685!3d50.07554027955164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b93e2bd19f7d5%3A0x2b6295a3c29d2b4e!2sPrague%2C%20Czechia!5e0!3m2!1sen!2sus!4v1662013951343!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
